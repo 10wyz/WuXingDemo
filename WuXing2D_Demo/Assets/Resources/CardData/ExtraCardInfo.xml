@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ExtraCard>
+
+	<Card name="青龙">
+		<ID>120007</ID>
+		<Name>青龙</Name>
+		<Owner>天</Owner>
+		<Property>木</Property>
+		<Camp>四灵</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillDescription value="场上存在苍龙七宿时，仅一次，从牌堆抽4张牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="4"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="苍龙七宿"></Camp>
+				<MinNum value="1"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="白虎">
+		<ID>110006</ID>
+		<Name>白虎</Name>
+		<Owner>天</Owner>
+		<Property>金</Property>
+		<Camp>四灵</Camp>
+		<Skill>
+			<SkillDescription value="场上存在白虎七宿时，仅一次，破坏敌方天盘上的所有牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<PlayerType value="Enemy"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+						<RegardOwner value="天"></RegardOwner>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="白虎七宿"></Camp>
+				<MinNum value="1"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="朱雀">
+		<ID>140007</ID>
+		<Name>朱雀</Name>
+		<Owner>天</Owner>
+		<Property>火</Property>
+		<Camp>四灵</Camp>
+		<Skill>
+			<SkillDescription value="场上存在朱雀七宿时，仅一次，获取敌方手中所有角色牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemOr>
+							<ItemBase>
+								<CardCategory value="RoleCard"></CardCategory>
+							</ItemBase>
+							<ItemBase>
+								<CardCategory value="ExtraCard"></CardCategory>
+							</ItemBase>
+						</ItemOr>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="朱雀七宿"></Camp>
+				<MinNum value="1"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="玄武">
+		<ID>130008</ID>
+		<Name>玄武</Name>
+		<Owner>天</Owner>
+		<Property>水</Property>
+		<Camp>四灵</Camp>
+		<Skill>
+			<SkillDescription value="场上存在玄武七宿时，仅一次，选择我方场上1张牌，使其获得四个混沌盾。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem03">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ShieldNum>
+					<MaxNum value="4"></MaxNum>
+				</ShieldNum>
+				<ShieldProperty value="混沌"></ShieldProperty>
+				<Target>
+					<ItemBase>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="1"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+
+	<Card name="烛龙">
+		<ID>140008</ID>
+		<Name>烛龙</Name>
+		<Owner>天</Owner>
+		<Property>火</Property>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillDescription value="一回合一次，选择我方场上的1张牌和手中可以放置在该位置的牌互换。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="SiteCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="140008"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem15">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<SelectSite value="false"></SelectSite>
+				<TargetIndex value="0"></TargetIndex>
+				<Target>
+					<ItemBase>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+</ExtraCard>

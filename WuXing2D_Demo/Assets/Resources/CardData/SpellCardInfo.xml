@@ -1,0 +1,2437 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<SpellCard>
+	<Card name="斡旋造化">
+		<ID>810001</ID>
+		<Name>斡旋造化</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="分别从三盘上各自选择1张牌，将该盘属性修改为其对应的后天属性。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem08">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<SkipEnable value="true"></SkipEnable>
+				<PlayerType value="Player"></PlayerType>
+				<BasePara value="false"></BasePara>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem08">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<SkipEnable value="true"></SkipEnable>
+				<PlayerType value="Player"></PlayerType>
+				<BasePara value="false"></BasePara>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem08">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<SkipEnable value="true"></SkipEnable>
+				<PlayerType value="Player"></PlayerType>
+				<BasePara value="false"></BasePara>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="人"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="4"></NextPhaseS>
+				<NextPhaseF value="4"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810001"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="颠倒阴阳">
+		<ID>810002</ID>
+		<Name>颠倒阴阳</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="当前我方场上的牌1回合内不会被破坏。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810002"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="移星换斗">
+		<ID>810003</ID>
+		<Name>移星换斗</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择我方天盘上的2张牌，交换其位置。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem00">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<Player value="Player"></Player>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem15">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<SelectSite value="false"></SelectSite>
+				<IgnoreRule value="true"></IgnoreRule>
+				<TargetIndex value="0"></TargetIndex>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="天"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+							<Player value="Player"></Player>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<TargetSource value="Select"></TargetSource>
+								<TargetIndex value="0"></TargetIndex>
+								<ID value="1"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem15">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<SelectSite value="false"></SelectSite>
+				<IgnoreRule value="true"></IgnoreRule>
+				<TargetIndex value="1"></TargetIndex>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<TargetSource value="Select"></TargetSource>
+							<TargetIndex value="0"></TargetIndex>
+							<ID value="1"></ID>
+						</ItemBase>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="4"></NextPhaseS>
+				<NextPhaseF value="4"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810003"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="回天返日">
+		<ID>810004</ID>
+		<Name>回天返日</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="当前我方场上的牌的技能可使用次数加1。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem14">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Index value="-1"></Index>
+				<Num value="1"></Num>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810004"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="呼风唤雨">
+		<ID>810005</ID>
+		<Name>呼风唤雨</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="1回合内放置水行牌不必遵循五行相生。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Enable value="true"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<ConditionIndex value="2"></ConditionIndex>
+				<PlayerType value="Player"></PlayerType>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810005"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="振山撼地">
+		<ID>810006</ID>
+		<Name>振山撼地</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="破坏双方场上所有土行牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="土"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810006"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="腾云驾雾">
+		<ID>810007</ID>
+		<Name>腾云驾雾</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="双方天盘上的牌回到手牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<PlayerType value="Player"></PlayerType>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<PlayerType value="Enemy"></PlayerType>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810007"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="划江成陆">
+		<ID>810008</ID>
+		<Name>划江成陆</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="我方手中的水行牌可被视为土行牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem13">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Property value="土"></Property>
+				<Add value="true"></Add>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810008"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="纵地金光">
+		<ID>820001</ID>
+		<Name>纵地金光</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="当前我方场上的牌1回合内发动技能可以无视始牌条件。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem03"></ConditionName>
+				<Enable value="true"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+				<TargetCondition value="ConditionItem03">
+					<TriggerPhase value="Initial"></TriggerPhase>
+				</TargetCondition>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820001"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="翻江搅海">
+		<ID>820002</ID>
+		<Name>翻江搅海</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上每有一张水行牌，可以选择敌方场上1张牌破坏。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+					<Target>
+						<ItemBase>
+							<BaseProperty value="水"></BaseProperty>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+					</Target>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820002"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="指地成钢">
+		<ID>820003</ID>
+		<Name>指地成钢</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="敌方1回合不可在地盘上放置牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<ConditionIndex value="0"></ConditionIndex>
+				<PlayerType value="Enemy"></PlayerType>
+				<Site>
+					<ItemBase>
+						<BaseOwner value="地"></BaseOwner>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Site>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820003"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="五行大遁">
+		<ID>810009</ID>
+		<Name>五行大遁</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择一个五行属性，本回合放置先天属性与该属性一致的卡牌不必遵循五行相生。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem18">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Option value="金"></Option>
+				<Option value="木"></Option>
+				<Option value="水"></Option>
+				<Option value="火"></Option>
+				<Option value="土"></Option>
+				<TypeIndex value="3"></TypeIndex>
+				<MinNum value="1"></MinNum>
+				<MaxNum value="1"></MaxNum>
+			</SkillItem>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Enable value="true"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<ConditionIndex value="2"></ConditionIndex>
+				<PlayerType value="Player"></PlayerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<TargetSource value="Select"></TargetSource>
+							<TargetIndex value="0"></TargetIndex>
+							<BaseProperty value="水"></BaseProperty>
+						</ItemBase>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+					</ItemAnd>
+				</Target>
+				<Site>
+					<ItemBase>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Site>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810009"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="六甲奇门">
+		<ID>820004</ID>
+		<Name>六甲奇门</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选中敌方场上1张牌加入手牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="SiteCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="LeaderCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820004"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="逆知未来">
+		<ID>810010</ID>
+		<Name>逆知未来</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="丢弃手中3张角色牌，从牌堆抽3张牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="LeaderCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810010"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="鞭山移石">
+		<ID>830001</ID>
+		<Name>鞭山移石</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择场上1张土行牌和手中的1张土行牌进行交换。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="土"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem15">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<SelectSite value="false"></SelectSite>
+				<IgnoreRule value="true"></IgnoreRule>
+				<TargetIndex value="0"></TargetIndex>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="土"></BaseProperty>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830001"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="起死回生">
+		<ID>810011</ID>
+		<Name>起死回生</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="我方场上的牌被破坏时可以发动，被破坏的卡牌回到手牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Damage"></TriggerType>
+			<SkillStage value="OnHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810011"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemBase>
+						<CardType value="DeadSite"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="飞身托迹">
+		<ID>820005</ID>
+		<Name>飞身托迹</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择场上1张牌，其1回合不会成为敌方主动技能的对象。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem20">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Turn value="1"></Turn>
+				<TargetSkillItem value="SkillItem"></TargetSkillItem>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+				<ImmuneTarget>
+					<ItemBase>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</ImmuneTarget>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820005"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="九息服气">
+		<ID>830002</ID>
+		<Name>九息服气</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="丢弃手中2张法术牌，从牌堆抽2张法术牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="2"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardCategory value="SpellCard"></CardCategory>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="830002"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem05">
+				<Number>
+					<MaxNum value="2"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<PlayerType value="Player"></PlayerType>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830002"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="导出元阳">
+		<ID>810012</ID>
+		<Name>导出元阳</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择敌方手中1张法术牌丢弃。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardCategory value="SpellCard"></CardCategory>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810012"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="降龙伏虎">
+		<ID>830003</ID>
+		<Name>降龙伏虎</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="破坏敌方地盘上所有无阵营牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<Camp value="无"></Camp>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830003"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="补天浴日">
+		<ID>810013</ID>
+		<Name>补天浴日</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择一个盘，1回合内该盘放置牌不必遵循五行相生。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem18">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Option value="天"></Option>
+				<Option value="地"></Option>
+				<Option value="人"></Option>
+				<TypeIndex value="2"></TypeIndex>
+				<MinNum value="1"></MinNum>
+				<MaxNum value="1"></MaxNum>
+			</SkillItem>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Enable value="true"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<ConditionIndex value="2"></ConditionIndex>
+				<PlayerType value="Player"></PlayerType>
+				<Target>
+					<ItemBase>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+				<Site>
+					<ItemAnd>
+						<ItemBase>
+							<TargetSource value="Select"></TargetSource>
+							<TargetIndex value="0"></TargetIndex>
+							<BaseOwner value="天"></BaseOwner>
+						</ItemBase>
+						<ItemBase>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+					</ItemAnd>
+				</Site>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810013"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="推山填海">
+		<ID>820006</ID>
+		<Name>推山填海</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="破坏双方场上所有土行牌和水行牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+					</ItemAnd>
+					<ItemOr>
+						<ItemBase>
+							<BaseProperty value="土"></BaseProperty>
+						</ItemBase>
+						<ItemBase>
+							<BaseProperty value="水"></BaseProperty>
+						</ItemBase>
+					</ItemOr>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820006"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="点石成金">
+		<ID>830004</ID>
+		<Name>点石成金</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="我方手中的土行牌可被视为金行牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem13">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Property value="金"></Property>
+				<Add value="true"></Add>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="土"></BaseProperty>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830004"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="正立无影">
+		<ID>830005</ID>
+		<Name>正立无影</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择场上1张牌，1回合内该牌不会被破坏。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830005"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="胎化易形">
+		<ID>830006</ID>
+		<Name>胎化易形</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择手中的1张角色牌，该牌可被视为任一从属。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem13">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Owner value="天"></Owner>
+				<Owner value="地"></Owner>
+				<Owner value="人"></Owner>
+				<Add value="true"></Add>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830006"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="大小如意">
+		<ID>810014</ID>
+		<Name>大小如意</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="双方各从牌堆中抽4张牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="4"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<SkipEnable value="true"></SkipEnable>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="4"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Excutor value="Enemy"></Excutor>
+				<SkipEnable value="true"></SkipEnable>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810014"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="花开顷刻">
+		<ID>820007</ID>
+		<Name>花开顷刻</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="当前我方场上的始牌在3回合内发动技能可以无视终牌条件。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem03"></ConditionName>
+				<Enable value="true"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="3"></Turn>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+						<SpecialIndex value="2"></SpecialIndex>
+					</ItemBase>
+				</Target>
+				<TargetCondition value="ConditionItem03">
+					<TriggerPhase value="Final"></TriggerPhase>
+				</TargetCondition>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820007"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="游神御气">
+		<ID>820008</ID>
+		<Name>游神御气</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择我方场上的1张牌，使其回到手牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820008"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="隔垣洞见">
+		<ID>830007</ID>
+		<Name>隔垣洞见</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="敌方需出示手中所有法术牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem19">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardCategory value="SpellCard"></CardCategory>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830007"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="回风返火">
+		<ID>810015</ID>
+		<Name>回风返火</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="敌方放置卡牌时可以发动，将该卡牌弹回手中，且1回合不可放置。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="OnHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<PlayerType value="Enemy"></PlayerType>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<ConditionIndex value="0"></ConditionIndex>
+				<PlayerType value="Enemy"></PlayerType>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810015"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="掌握五雷">
+		<ID>810016</ID>
+		<Name>掌握五雷</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="敌方破坏我方场上的牌时可以发动，发动破坏的牌被破坏。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Damage"></TriggerType>
+			<SkillStage value="OnHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Trigger>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Trigger>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810016"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemBase>
+						<CardType value="DeadSite"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="潜渊缩地">
+		<ID>820009</ID>
+		<Name>潜渊缩地</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="当前我方场上的牌1回合内发动技能可以无视终牌条件。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem03"></ConditionName>
+				<Enable value="true"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+				<TargetCondition value="ConditionItem03">
+					<TriggerPhase value="Final"></TriggerPhase>
+				</TargetCondition>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820009"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="飞砂走石">
+		<ID>820010</ID>
+		<Name>飞砂走石</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="敌方破坏我方卡牌时可以发动，1回合我方场上卡牌不会被破坏。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Attack"></TriggerType>
+			<SkillStage value="OnHand"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820010"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Attack"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="挟山超海">
+		<ID>830008</ID>
+		<Name>挟山超海</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="破坏双方场上主导牌之外的牌"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<SpecialIndex value="1"></SpecialIndex>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830008"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="撒豆成兵">
+		<ID>830009</ID>
+		<Name>撒豆成兵</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="从牌组抽3张牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830009"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="钉头七箭">
+		<ID>830010</ID>
+		<Name>钉头七箭</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择敌方场上1张牌，使其离场。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem09">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830010"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	
+	
+	<Card name="苍龙连蜷">
+		<ID>810017</ID>
+		<Name>苍龙连蜷</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上存在3张苍龙七宿时可以发动，破坏双方天盘上除苍龙七宿外的牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="天"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<Camp value="苍龙七宿"></Camp>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810017"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="苍龙七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="白虎猛据">
+		<ID>810018</ID>
+		<Name>白虎猛据</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上存在3张白虎七宿时可以发动，破坏双方天盘上除白虎七宿外的牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="天"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<Camp value="白虎七宿"></Camp>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810018"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="白虎七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="朱雀奋翼">
+		<ID>810019</ID>
+		<Name>朱雀奋翼</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上存在3张朱雀七宿时可以发动，破坏双方天盘上除朱雀七宿外的牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="天"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<Camp value="朱雀七宿"></Camp>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810019"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="朱雀七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="灵龟圈首">
+		<ID>810020</ID>
+		<Name>灵龟圈首</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上存在3张玄武七宿时可以发动，破坏双方天盘上除玄武七宿外的牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="天"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<Camp value="玄武七宿"></Camp>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810020"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="九子归龙">
+		<ID>820011</ID>
+		<Name>九子归龙</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="可以将场上龙九子替换为牌组中阵营为龙的牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<Camp value="龙九子"></Camp>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem06">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<TargetPlayer value="Player"></TargetPlayer>
+				<Target>
+					<ItemBase>
+						<CardType value="DeckCard"></CardType>
+						<Camp value="龙"></Camp>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem15">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<SelectSite value="false"></SelectSite>
+				<IgnoreRule value="true"></IgnoreRule>
+				<TargetIndex value="0"></TargetIndex>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Select"></TargetSource>
+						<TargetIndex value="1"></TargetIndex>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="4"></NextPhaseS>
+				<NextPhaseF value="4"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820011"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="惩善扬恶">
+		<ID>820012</ID>
+		<Name>惩善扬恶</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上存在2个四凶时可以发动，破坏敌方地盘上所有无破坏效果技能的牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="地"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<SpecialIndex value="3"></SpecialIndex>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820012"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="四凶"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="都天神魔">
+		<ID>830011</ID>
+		<Name>都天神魔</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上存在4个祖巫时可以发动，破坏敌方场上所有主角牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardCategory value="LeaderCard"></CardCategory>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830011"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="祖巫"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="移尸走影">
+		<ID>830012</ID>
+		<Name>移尸走影</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="破坏我方人盘上的所有牌，获取牌堆中所有僵尸始祖。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="人"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem06">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<TargetPlayer value="Player"></TargetPlayer>
+				<Target>
+					<ItemBase>
+						<Camp value="僵尸始祖"></Camp>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="3"></NextPhaseS>
+				<NextPhaseF value="3"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830012"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="九曲黄河">
+		<ID>830013</ID>
+		<Name>九曲黄河</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="场上存在2个三霄时可以发动，破坏敌方人盘上所有非主角牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="人"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="LeaderCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830013"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="三霄"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+</SpellCard>

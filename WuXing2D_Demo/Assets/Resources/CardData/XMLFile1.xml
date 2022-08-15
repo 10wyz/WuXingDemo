@@ -1,0 +1,2868 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<MonsterCard>
+	<Card name="金乌">
+		<ID>140001</ID>
+		<Name>金乌</Name>
+		<Owner>天</Owner>
+		<Property>火</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillStage value="OnSite"></SkillStage>
+			<TriggerType value="Come"></TriggerType>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<PlayerType value="Enemy"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+						<RegardProperty value="水"></RegardProperty>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="140001"></ID>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Initial"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="玉兔">
+		<ID>130001</ID>
+		<Name>玉兔</Name>
+		<Owner>天</Owner>
+		<Property>水</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem03">
+				<Number>
+					<MaxNum value="3"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ShieldNum>
+					<MaxNum value="1"></MaxNum>
+				</ShieldNum>
+				<ShieldProperty value="火"></ShieldProperty>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="130001"></ID>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Initial"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+	</Card>
+
+	<Card name="斗木獬">
+		<ID>120006</ID>
+		<Name>斗木獬</Name>
+		<Owner>天</Owner>
+		<Property>木</Property>
+		<Camp>玄武七宿</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem06">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<ID value="130008"></ID>
+						<CardType value="DeckCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="牛金牛">
+		<ID>110004</ID>
+		<Name>牛金牛</Name>
+		<Owner>天</Owner>
+		<Property>金</Property>
+		<Camp>玄武七宿</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<PlayerType value="Enemy"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+						<BaseProperty value="水"></BaseProperty>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="5"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="女土蝠">
+		<ID>150005</ID>
+		<Name>女土蝠</Name>
+		<Owner>天</Owner>
+		<Property>土</Property>
+		<Camp>玄武七宿</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="150005"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="天"></RegardOwner>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<Camp value="玄武七宿"></Camp>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MaxNum value="3"></MaxNum>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="玄武七宿"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="150005"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="天"></RegardOwner>
+							<Camp value="玄武七宿"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="150005"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeDeadSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<TriggerType value="Left"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="150005"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="DeadSite"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="天"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MaxNum value="2"></MaxNum>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<TriggerType value="Left"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="玄武七宿"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="DeadSite"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="150005"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="虚日鼠">
+		<ID>110005</ID>
+		<Name>虚日鼠</Name>
+		<Owner>天</Owner>
+		<Property>金</Property>
+		<Camp>玄武七宿</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemOr>
+							<ItemBase>
+								<CardCategory value="RoleCard"></CardCategory>
+							</ItemBase>
+							<ItemBase>
+								<CardCategory value="ExtraCard"></CardCategory>
+							</ItemBase>
+						</ItemOr>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="危月燕">
+		<ID>150006</ID>
+		<Name>危月燕</Name>
+		<Owner>天</Owner>
+		<Property>土</Property>
+		<Camp>玄武七宿</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="室火猪">
+		<ID>140006</ID>
+		<Name>室火猪</Name>
+		<Owner>天</Owner>
+		<Property>火</Property>
+		<Camp>玄武七宿</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Damage"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<PlayerType value="Enemy"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="壁水貐">
+		<ID>130007</ID>
+		<Name>壁水貐</Name>
+		<Owner>天</Owner>
+		<Property>水</Property>
+		<Camp>玄武七宿</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="玄武七宿"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+
+
+
+	<Card name="囚牛">
+		<ID>220001</ID>
+		<Name>囚牛</Name>
+		<Owner>地</Owner>
+		<Property>木</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem06">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<Camp value="龙九子"></Camp>
+						<CardType value="DeckCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="睚眦">
+		<ID>210001</ID>
+		<Name>睚眦</Name>
+		<Owner>地</Owner>
+		<Property>金</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillStage value="OnDeadSite"></SkillStage>
+			<TriggerType value="Damage"></TriggerType>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemBase>
+							<TargetSource value="Trigger"></TargetSource>
+							<ID value="1"></ID>
+						</ItemBase>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<ID value="210001"></ID>
+						<CardType value="DeadSite"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="嘲风">
+		<ID>220002</ID>
+		<Name>嘲风</Name>
+		<Owner>地</Owner>
+		<Property>木</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Damage"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="蒲牢">
+		<ID>230001</ID>
+		<Name>蒲牢</Name>
+		<Owner>地</Owner>
+		<Property>水</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<ConditionIndex value="0"></ConditionIndex>
+				<PlayerType value="Enemy"></PlayerType>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+				<Site>
+					<ItemBase>
+						<BaseOwner value="地"></BaseOwner>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Site>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="230001"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<ConditionIndex value="0"></ConditionIndex>
+				<PlayerType value="Enemy"></PlayerType>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+				<Site>
+					<ItemBase>
+						<BaseOwner value="地"></BaseOwner>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Site>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MaxNum value="3"></MaxNum>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="龙九子"></Camp>
+							<CardType value="SiteCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="230001"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeDeadSite"></SkillStage>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Enable value="false"></Enable>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<ConditionIndex value="0"></ConditionIndex>
+				<PlayerType value="Enemy"></PlayerType>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+				<Site>
+					<ItemBase>
+						<BaseOwner value="地"></BaseOwner>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Site>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Left"></TriggerType>
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="230001"></ID>
+						<CardType value="DeadSite"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem10">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Enable value="false"></Enable>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<ConditionIndex value="0"></ConditionIndex>
+				<PlayerType value="Enemy"></PlayerType>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+				<Site>
+					<ItemBase>
+						<BaseOwner value="地"></BaseOwner>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Site>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MaxNum value="2"></MaxNum>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Left"></TriggerType>
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="龙九子"></Camp>
+							<CardType value="DeadSite"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="230001"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="狻猊">
+		<ID>240001</ID>
+		<Name>狻猊</Name>
+		<Owner>地</Owner>
+		<Property>火</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="240001"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="地"></RegardOwner>
+							<CardType value="SiteCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemBase>
+							<TargetSource value="Target"></TargetSource>
+							<ID value="1"></ID>
+						</ItemBase>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="龙九子"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="240001"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeDeadSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Left"></TriggerType>
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="240001"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="DeadSite"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MaxNum value="3"></MaxNum>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Left"></TriggerType>
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="龙九子"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="DeadSite"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="240001"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="赑屃">
+		<ID>250001</ID>
+		<Name>赑屃</Name>
+		<Owner>地</Owner>
+		<Property>土</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Skill"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Skill"></TriggerType>
+				<Trigger>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="龙九子"></Camp>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="250001"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Trigger>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="狴犴">
+		<ID>210002</ID>
+		<Name>狴犴</Name>
+		<Owner>地</Owner>
+		<Property>金</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem03">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ShieldNum>
+					<MaxNum value="-1000"></MaxNum>
+				</ShieldNum>
+				<ShieldProperty value="混沌"></ShieldProperty>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="负屃">
+		<ID>250002</ID>
+		<Name>负屃</Name>
+		<Owner>地</Owner>
+		<Property>土</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="CardDeck"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="螭吻">
+		<ID>230002</ID>
+		<Name>螭吻</Name>
+		<Owner>地</Owner>
+		<Property>水</Property>
+		<Camp>龙九子</Camp>
+		<Camp>龙</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="230002"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="地"></RegardOwner>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<Camp value="龙九子"></Camp>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MaxNum value="3"></MaxNum>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="龙九子"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="230002"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<RegardOwner value="地"></RegardOwner>
+							<Camp value="龙九子"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="230002"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeDeadSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<TriggerType value="Left"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="230002"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="DeadSite"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="5"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="龙九子"></Camp>
+				<MaxNum value="2"></MaxNum>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<TriggerType value="Left"></TriggerType>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<Camp value="龙九子"></Camp>
+							<PlayerType value="Player"></PlayerType>
+							<CardType value="DeadSite"></CardType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<ID value="230002"></ID>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+
+	<Card name="混沌">
+		<ID>250003</ID>
+		<Name>混沌</Name>
+		<Owner>地</Owner>
+		<Property>土</Property>
+		<Camp>四凶</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<SkillStage value="OnSite"></SkillStage>
+			<TriggerType value="Come"></TriggerType>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemBase>
+							<TargetSource value="Target"></TargetSource>
+							<BaseProperty value="土"></BaseProperty>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="四凶"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<PlayerType value="Enemy"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="穷奇">
+		<ID>220003</ID>
+		<Name>穷奇</Name>
+		<Owner>地</Owner>
+		<Property>木</Property>
+		<Camp>四凶</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Excutor value="Player"></Excutor>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Final"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Damage"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="CardDeck"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="四凶"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="饕餮">
+		<ID>240002</ID>
+		<Name>饕餮</Name>
+		<Owner>地</Owner>
+		<Property>火</Property>
+		<Camp>四凶</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Enemy"></PlayerType>
+						</ItemBase>
+						<ItemOr>
+							<ItemBase>
+								<CardCategory value="RoleCard"></CardCategory>
+							</ItemBase>
+							<ItemBase>
+								<CardCategory value="ExtraCard"></CardCategory>
+							</ItemBase>
+						</ItemOr>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Initial"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="2"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="地"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="四凶"></Camp>
+				<MinNum value="4"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="梼杌">
+		<ID>230003</ID>
+		<Name>梼杌</Name>
+		<Owner>地</Owner>
+		<Property>水</Property>
+		<Camp>四凶</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Attack"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseOwner value="地"></BaseOwner>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="HandCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Time value="1"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<TargetSource value="Trigger"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="四凶"></Camp>
+				<MinNum value="2"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Attack"></TriggerType>
+				<Trigger>
+					<ItemAnd>
+						<ItemBase>
+							<CardType value="SiteCard"></CardType>
+						</ItemBase>
+						<ItemBase>
+							<CardType value="DeadSite"></CardType>
+						</ItemBase>
+					</ItemAnd>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<Camp value="四凶"></Camp>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+
+	<Card name="女娇">
+		<ID>230006</ID>
+		<Name>女娇</Name>
+		<Owner>地</Owner>
+		<Property>水</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem01"></ConditionName>
+				<Enable value="true"></Enable>
+				<Time value="1"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="ToHand"></TriggerType>
+			<SkillStage value="FreeHand"></SkillStage>
+			<SkillItem value="SkillItem13">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Owner value="人"></Owner>
+				<Add value="true"></Add>
+				<Target>
+					<ItemBase>
+						<ID value="230006"></ID>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="ToHand"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="230006"></ID>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+			<ConditionItem value="ConditionItem04">
+				<Target>
+					<ItemBase>
+						<ID value="350005"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+				<MinNum value="1"></MinNum>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeHand"></SkillStage>
+			<SkillItem value="SkillItem13">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Owner value="人"></Owner>
+				<Add value="true"></Add>
+				<Target>
+					<ItemBase>
+						<ID value="230006"></ID>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="350005"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeHand"></SkillStage>
+			<SkillItem value="SkillItem13">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Owner value="人"></Owner>
+				<Add value="false"></Add>
+				<Target>
+					<ItemBase>
+						<ID value="230006"></ID>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Left"></TriggerType>
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="350005"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+
+	<Card name="扶桑木">
+		<ID>240007</ID>
+		<Name>扶桑木</Name>
+		<Owner>地</Owner>
+		<Property>火</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Attack"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="2"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Excutor value="Enemy"></Excutor>
+				<SkipEnable value="true"></SkipEnable>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<SkipEnable value="true"></SkipEnable>
+				<Time value="1"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<TargetSource value="Trigger"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Attack"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<ID value="240007"></ID>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="月桂树">
+		<ID>230007</ID>
+		<Name>月桂树</Name>
+		<Owner>地</Owner>
+		<Property>水</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="ToHand"></TriggerType>
+			<SkillStage value="FreeHand"></SkillStage>
+			<SkillItem value="SkillItem13">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Property value="木"></Property>
+				<Add value="true"></Add>
+				<Target>
+					<ItemBase>
+						<ID value="230007"></ID>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="ToHand"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="230007"></ID>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Attack"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Time value="1"></Time>
+				<Turn value="1"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<TargetSource value="Trigger"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Attack"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<ID value="230007"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="人参果树">
+		<ID>220006</ID>
+		<Name>人参果树</Name>
+		<Owner>地</Owner>
+		<Property>土</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem03">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ShieldNum>
+					<MaxNum value="1"></MaxNum>
+				</ShieldNum>
+				<ShieldProperty value="土"></ShieldProperty>
+				<Target>
+					<ItemBase>
+						<ID value="220006"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Initial"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="黄中李">
+		<ID>220006</ID>
+		<Name>黄中李</Name>
+		<Owner>地</Owner>
+		<Property>木</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Rinne"></TriggerType>
+			<SkillStage value="FreeDeadSite"></SkillStage>
+			<SkillItem value="SkillItem05">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Rinne"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<ID value="220006"></ID>
+						<CardType value="DeadSite"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Trigger>
+			</ConditionItem>
+		</Skill>
+	</Card>
+
+	<Card name="羲和">
+		<ID>340001</ID>
+		<Name>羲和</Name>
+		<Owner>人</Owner>
+		<Property>火</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem04">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="CardDeck"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+
+	<Card name="大禹">
+		<ID>350005</ID>
+		<Name>大禹</Name>
+		<Owner>人</Owner>
+		<Property>土</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem03">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ShieldNum>
+					<MaxNum value="1"></MaxNum>
+				</ShieldNum>
+				<ShieldProperty value="木"></ShieldProperty>
+				<Target>
+					<ItemBase>
+						<ID value="350005"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem04">
+				<Target>
+					<ItemBase>
+						<ID value="230006"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+				<MinNum value="1"></MinNum>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="350005"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Left"></TriggerType>
+			<SkillStage value="FreeDeadSite"></SkillStage>
+			<SkillItem value="SkillItem16">
+				<Number>
+					<MaxNum value="15"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ConditionName value="ConditionItem00"></ConditionName>
+				<Enable value="false"></Enable>
+				<Time value="-1000"></Time>
+				<Turn value="-1000"></Turn>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Left"></TriggerType>
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="350005"></ID>
+						<CardType value="DeadSite"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="刑天">
+		<ID>310002</ID>
+		<Name>刑天</Name>
+		<Owner>人</Owner>
+		<Property>金</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem03">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<ShieldNum>
+					<MaxNum value="1"></MaxNum>
+				</ShieldNum>
+				<ShieldProperty value="混沌"></ShieldProperty>
+				<Target>
+					<ItemBase>
+						<ID value="310002"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="310002"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1000"></SkillTimes>
+			<TurnSkillTimes value="1000"></TurnSkillTimes>
+			<TriggerType value="Attack"></TriggerType>
+			<SkillStage value="OnSite"></SkillStage>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Trigger"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Attack"></TriggerType>
+				<Trigger>
+					<ItemBase>
+						<BaseOwner value="人"></BaseOwner>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Trigger>
+				<Target>
+					<ItemBase>
+						<ID value="310002"></ID>
+						<PlayerType value="Player"></PlayerType>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="大羿">
+		<ID>350003</ID>
+		<Name>大羿</Name>
+		<Owner>人</Owner>
+		<Property>土</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<TriggerType value="Come"></TriggerType>
+			<SkillStage value="FreeSite"></SkillStage>
+			<SkillItem value="SkillItem07">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Time value="1000"></Time>
+				<Turn value="1000"></Turn>
+				<Target>
+					<ItemBase>
+						<ID value="350003"></ID>
+					</ItemBase>
+				</Target>
+				<Resist>
+					<ItemBase>
+						<BaseProperty value="木"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Resist>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Come"></TriggerType>
+				<Target>
+					<ItemBase>
+						<ID value="350003"></ID>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="水"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="火"></BaseProperty>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="蚩尤">
+		<ID>310003</ID>
+		<Name>蚩尤</Name>
+		<Owner>人</Owner>
+		<Property>金</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="2"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseProperty value="金"></BaseProperty>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+
+
+	<Card name="云霄">
+		<ID>330008</ID>
+		<Name>云霄</Name>
+		<Owner>人</Owner>
+		<Property>水</Property>
+		<Camp>三霄</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="人"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Final"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<BaseProperty value="水"></BaseProperty>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseOwner value="人"></BaseOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="三霄"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="琼霄">
+		<ID>340008</ID>
+		<Name>琼霄</Name>
+		<Owner>人</Owner>
+		<Property>火</Property>
+		<Camp>三霄</Camp>
+		<Skill>
+			<SkillDescription value="作为终牌时，选择1张敌方人盘上的牌破坏。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="人"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Final"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillDescription value="场上有3个三霄时，一回合一次，丢弃手中1张火行牌，破坏敌方场上1张人属牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<BaseProperty value="火"></BaseProperty>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseOwner value="人"></BaseOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="三霄"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="碧霄">
+		<ID>320008</ID>
+		<Name>碧霄</Name>
+		<Owner>人</Owner>
+		<Property>木</Property>
+		<Camp>三霄</Camp>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="-1"></TurnSkillTimes>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<RegardOwner value="人"></RegardOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem03">
+				<TriggerPhase value="Final"></TriggerPhase>
+			</ConditionItem>
+		</Skill>
+		<Skill>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemAnd>
+						<ItemBase>
+							<BaseProperty value="木"></BaseProperty>
+							<CardType value="HandCard"></CardType>
+							<PlayerType value="Player"></PlayerType>
+						</ItemBase>
+						<ItemNot>
+							<ItemBase>
+								<CardCategory value="SpellCard"></CardCategory>
+							</ItemBase>
+						</ItemNot>
+					</ItemAnd>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem01">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<BaseOwner value="人"></BaseOwner>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem01">
+				<Camp value="三霄"></Camp>
+				<MinNum value="3"></MinNum>
+				<PlayerType value="Player"></PlayerType>
+			</ConditionItem>
+		</Skill>
+	</Card>
+</MonsterCard>

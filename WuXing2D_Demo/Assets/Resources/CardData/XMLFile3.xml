@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<SpellCard>
+	<Card name="起死回生">
+		<ID>810011</ID>
+		<Name>起死回生</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="我方场上的牌被破坏时可以发动，被破坏的卡牌回到手牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<TriggerType value="Damage"></TriggerType>
+			<SkillStage value="OnHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<TargetSource value="Target"></TargetSource>
+						<ID value="1"></ID>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="810011"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<ConditionItem value="ConditionItem02">
+				<TriggerType value="Damage"></TriggerType>
+				<Target>
+					<ItemBase>
+						<CardType value="DeadSite"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</ConditionItem>
+		</Skill>
+	</Card>
+	<Card name="隔垣洞见">
+		<ID>830007</ID>
+		<Name>隔垣洞见</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="敌方需出示手中所有法术牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem19">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardCategory value="SpellCard"></CardCategory>
+						<CardType value="HandCard"></CardType>
+						<PlayerType value="Enemy"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="830007"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+	<Card name="游神御气">
+		<ID>820008</ID>
+		<Name>游神御气</Name>
+		<Owner>天</Owner>
+		<Property>术</Property>
+		<Camp>无</Camp>
+		<Skill>
+			<SkillDescription value="选择我方场上的1张牌，使其回到手牌。"></SkillDescription>
+			<SkillTimes value="1"></SkillTimes>
+			<TurnSkillTimes value="1"></TurnSkillTimes>
+			<SkillStage value="NoChainHand"></SkillStage>
+			<SkillItem value="SkillItem11">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Manual"></SelectType>
+				<NextPhaseS value="1"></NextPhaseS>
+				<NextPhaseF value="1"></NextPhaseF>
+				<Target>
+					<ItemBase>
+						<CardType value="SiteCard"></CardType>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+			<SkillItem value="SkillItem02">
+				<Number>
+					<MaxNum value="1"></MaxNum>
+				</Number>
+				<SelectType value="Auto"></SelectType>
+				<NextPhaseS value="2"></NextPhaseS>
+				<NextPhaseF value="2"></NextPhaseF>
+				<CompelEnable value="true"></CompelEnable>
+				<Target>
+					<ItemBase>
+						<ID value="820008"></ID>
+						<PlayerType value="Player"></PlayerType>
+					</ItemBase>
+				</Target>
+			</SkillItem>
+		</Skill>
+	</Card>
+</SpellCard>

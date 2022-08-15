@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Mode>
+	<Skill>
+		<SkillDescription value=""></SkillDescription>
+		<SkillTimes value="1"></SkillTimes>
+		<TurnSkillTimes value="1"></TurnSkillTimes>
+		<TriggerType value=""></TriggerType>
+		<SkillStage value=""></SkillStage>
+		<InnerSkill value="true"></InnerSkill>
+	</Skill>
+
+
+	<SkillItem value="SkillItem00">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	
+	<SkillItem value="SkillItem01">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem02">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem03">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<ShieldNum>
+			<MaxNum value="3"></MaxNum>
+		</ShieldNum>
+		<ShieldProperty value=""></ShieldProperty>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem04">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem05">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<PlayerType value=""></PlayerType>
+	</SkillItem>
+
+	<SkillItem value="SkillItem06">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<TargetPlayer value=""></TargetPlayer>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem07">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Time value=""></Time>
+		<Turn value=""></Turn>
+		<Target>
+		</Target>
+		<Resist>
+		</Resist>
+	</SkillItem>
+
+	<SkillItem value="SkillItem08">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Owner value=""></Owner>
+		<Property value=""></Property>
+		<PlayerType value=""></PlayerType>
+		<BasePara value=""></BasePara>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem09">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Target>
+		</Target>
+	</SkillItem>
+	
+	<SkillItem value="SkillItem10">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Enable value=""></Enable>
+		<Time value=""></Time>
+		<Turn value=""></Turn>
+		<ConditionIndex value=""></ConditionIndex>
+		<PlayerType value=""></PlayerType>
+		<Target>
+		</Target>
+		<Site>
+		</Site>
+	</SkillItem>
+
+	<SkillItem value="SkillItem11">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<PlayerType value=""></PlayerType>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem12">
+		<Number>
+			<MaxNum value="3"></MaxNum>
+		</Number>
+		<SelectType value="Auto"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Camp value=""></Camp>
+		<Add value=""></Add>
+		<PlayerType value=""></PlayerType>
+	</SkillItem>
+
+	<SkillItem value="SkillItem13">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Owner value=""></Owner>
+		<Property value=""></Property>
+		<Add value=""></Add>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem14">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Index value=""></Index>
+		<Num value=""></Num>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem15">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<SelectSite value="true"></SelectSite>
+		<IgnoreRule value="true"></IgnoreRule>
+		<TargetIndex value=""></TargetIndex>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem16">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<ConditionName value=""></ConditionName>
+		<Enable value=""></Enable>
+		<Time value=""></Time>
+		<Turn value=""></Turn>
+		<Target>
+		</Target>
+		<TargetCondition value="">
+		</TargetCondition>
+	</SkillItem>
+
+	<SkillItem value="SkillItem17">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Active value=""></Active>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem18">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Option value=""></Option>
+		<TypeIndex value=""></TypeIndex>
+		<MinNum value=""></MinNum>
+		<MaxNum value=""></MaxNum>
+	</SkillItem>
+
+	<SkillItem value="SkillItem19">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Target>
+		</Target>
+	</SkillItem>
+
+	<SkillItem value="SkillItem20">
+		<Number>
+			<MaxNum value="1"></MaxNum>
+		</Number>
+		<SelectType value="Manual"></SelectType>
+		<NextPhaseS value=""></NextPhaseS>
+		<NextPhaseF value=""></NextPhaseF>
+		<Excutor value=""></Excutor>
+		<SkipEnable value=""></SkipEnable>
+		<CompelEnable value=""></CompelEnable>
+		<Turn value=""></Turn>
+		<TargetSkillItem value=""></TargetSkillItem>
+		<Target>
+		</Target>
+		<ImmuneTarget>
+		</ImmuneTarget>
+	</SkillItem>
+	
+	<ConditionItem value="ConditionItem01">
+		<Camp value="朱雀七宿"></Camp>
+		<MaxNum value=""></MaxNum>
+		<MinNum value="5"></MinNum>
+		<PlayerType value="Player"></PlayerType>
+	</ConditionItem>
+
+	<ConditionItem value="ConditionItem02">
+		<TriggerType value=""></TriggerType>
+		<Trigger>
+		</Trigger>
+		<Target>
+		</Target>
+	</ConditionItem>
+
+	<ConditionItem value="ConditionItem03">
+		<TriggerPhase value=""></TriggerPhase>
+	</ConditionItem>
+
+	<ConditionItem value="ConditionItem04">
+		<Target>
+		</Target>
+		<MaxNum value=""></MaxNum>
+		<MinNum value=""></MinNum>
+	</ConditionItem>
+
+	<ConditionItem value="ConditionItem05">
+		<Index value=""></Index>
+		<Reverse value="false"></Reverse>
+	</ConditionItem>
+
+	<Target>
+		<ItemAnd>
+			<ItemBase>
+				<TargetSource value=""></TargetSource>
+				<PlayerType value="Player"></PlayerType>
+				<CardType value="SiteCard"></CardType>
+				<BaseProperty value="水"></BaseProperty>
+			</ItemBase>
+		</ItemAnd>
+	</Target>
+
+
+
+</Mode>
+
